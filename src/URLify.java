@@ -1,7 +1,7 @@
 public class URLify
 {
     public static void main(String[] args) {
-        String a = replaceSpaces("Mr John Smith    ",13);
+        char a = replaceSpaces("Mr John Smith    ",13);
         System.out.print(a);
     }
     static void replaceSpaces(char[] str, int trueLength){
